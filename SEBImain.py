@@ -59,7 +59,7 @@ if search_option == "📅 Recent Circulars":
 
     st.subheader("Find Recent SEBI Circulars")
 
-    years = st.slider(
+    days = st.slider(
         "Select Time Horizon (days)",
         min_value=1,
         max_value=90,
@@ -73,7 +73,7 @@ if search_option == "📅 Recent Circulars":
 You are an expert SEBI Regulatory Analyst.
 
 Search the SEBI website (https://www.sebi.gov.in/)
-and identify all important circulars issued in the last {years} years.
+and identify all important circulars issued in the last {days} days.
 
 For every circular provide:
 
