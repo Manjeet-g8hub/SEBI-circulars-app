@@ -72,7 +72,7 @@ if search_option == "📅 Recent Circulars":
         prompt = f"""
 You are an expert SEBI Regulatory Analyst.
 
-Search the SEBI website (https://www.sebi.gov.in/)
+Search the SEBI website (https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0)
 and identify all important circulars issued in the recent {days} days related to Business categories- Merchant Banking, PMS, Research Analyst(RA), Investment Advisor(IA).
 
 For every circular provide:
