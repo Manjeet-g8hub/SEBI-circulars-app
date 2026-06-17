@@ -73,19 +73,20 @@ if search_option == "📅 Recent Circulars":
 You are an expert SEBI Regulatory Analyst.
 
 Search the SEBI website (https://www.sebi.gov.in/)
-and identify all important circulars issued in the recent {days} days related to Merchant Banking, PMS, Research Analyst(RA), Investment Advisor(IA).
+and identify all important circulars issued in the recent {days} days related to Business categories- Merchant Banking, PMS, Research Analyst(RA), Investment Advisor(IA).
 
 For every circular provide:
 
-1. Circular Title
-2. Circular Number
-3. Issue Date
-4. Official SEBI Link
-5. Executive Summary
-6. Key Regulatory Changes
-7. Applicability
-8. Actionables
-9. Compliance Timeline
+1. Business category
+2. Circular Title
+3. Circular Number
+4. Issue Date
+5. Official SEBI Link
+6. Executive Summary
+7. Key Regulatory Changes
+8. Applicability
+9. Actionables
+10. Compliance Timeline
 
 Display the result in Markdown format with proper headings and tables.
 """
@@ -145,6 +146,7 @@ Return:
 
 # Circular Details
 
+- Business Category
 - Circular Title
 - Circular Number
 - Issue Date
